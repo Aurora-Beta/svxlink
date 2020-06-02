@@ -5,7 +5,7 @@ MAINTAINER Tobias Blomberg <sm0svx@svxlink.org>
 RUN apk update
 RUN apk add git cmake make g++ pkgconfig libsigc++-dev alsa-lib-dev opus-dev \
             speex-dev popt-dev libgcrypt-dev tcl-dev curl-dev gsm-dev \
-            linux-headers groff curl openssh
+            linux-headers groff curl openssh jsoncpp-dev
 
 # For building librtlsdr
 RUN apk add automake autoconf libtool libusb-dev
